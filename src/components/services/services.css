@@ -1,0 +1,89 @@
+.services__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.services__container h3 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffff;
+  letter-spacing: 1px;
+
+}
+
+.services__container span {
+  color: #FF7435;
+}
+
+.services__container h4 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffff;
+  letter-spacing: 1px;
+}
+
+.services__container-service1_cards-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 10rem;
+
+}
+
+.services__container-service2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.services__container-service2-container img {
+  border: 1px solid #ffff;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+  .services__container h3 {
+    font-size: 24px;
+  }
+
+  .services__container h4 {
+    font-size: 24px;
+  }
+
+  .services__container-service1_cards-containers {
+    display: block;
+    column-count: 2;
+    width: 50%;
+    padding: 5rem 3rem;
+  }
+
+  .services__container-service2-container {
+    flex-direction: column;
+  }
+
+  .services__container-service2-container img {
+    margin: 10px 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services__container-service1_cards-containers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .services__container-service1_cards-containers {
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--button-bg);
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
