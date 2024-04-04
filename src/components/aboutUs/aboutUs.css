@@ -156,9 +156,11 @@
 
 @media screen and (max-width: 500px) {
   .aboutUs__container-groupA {
-    width: 20rem;
-    height: 33rem;
     margin-left: 1rem;
+  }
+  .aboutUs__container-groupA_image img {
+    width: 100%;
+    height: 100%;
   }
   .aboutUs__container-groupB {
     margin: 0 auto;
@@ -176,7 +178,5 @@
     font-size: 20px;
   }
 
-  .aboutUs__container-groupB_buttons {
-    flex-direction: column;
-  }
+ 
 }

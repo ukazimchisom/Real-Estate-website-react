@@ -8,7 +8,7 @@ import './header.css';
 function Header() {
 
   return (
-    <div className='header' id='aboutUs'>
+    <div className='header' id='header'>
       <div className='header__contents-left'>
 
         <h1 className='gradient__text'>Helping People Get Their Dream Home.</h1>

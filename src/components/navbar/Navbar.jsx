@@ -10,7 +10,7 @@ function Navbar() {
 
   const Menu = () => (
     <>
-      <p><a href="#navbar">Home</a></p>
+      <p><a href="#header">Home</a></p>
       <p><a href="#aboutUs">AboutUs</a></p>
       <p><a href="#services">Services</a></p>
       <p><a href="#design">Design</a></p>
@@ -45,7 +45,7 @@ function Navbar() {
           : <RiMenu3Line color='#ffff' size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className='navbar__navbar-menu_container'>
+          <div className='navbar__navbar-menu_container '>
             <div className='navbar__navbar-menu_container-links'>
               <Menu />
             </div>

@@ -7,7 +7,7 @@ import './aboutUs.css';
 
 function AboutUs() {
   return (
-    <div className='aboutUs__container'>
+    <div className='aboutUs__container' id='aboutUs'>
       <div className='aboutUs__container-groupA'>
 
         <div className='aboutUs__container-groupA_image'>

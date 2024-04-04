@@ -152,10 +152,21 @@
     margin-left: 1.5rem;
   }
 
-  .footer__container-left p {
-    font-size: 18px;
-    
+  .footer__container-left-logo {
+
+    margin-bottom: 3rem;
   }
+
+  .footer__container-left p {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .footer__container-left img {
+    width: 100px;
+    margin-top: 1rem;
+  }
+
 
   .footer__container-middle {
     margin-bottom: 2rem;
@@ -164,21 +175,21 @@
 
   .footer__container-middle1 h6,
   .footer__container-middle2 h6 {
+    font-size: 18px;
+  }
+
+  .footer__container-middle1 p,
+  .footer__container-middle2 p {
     font-size: 16px;
   }
 
   .footer__container-right {
-    margin-left: 1.5rem;
+    margin-left: 5rem;
   }
-  .footer__container-right h6{
+
+  .footer__container-right h6 {
     margin-left: 1.5rem;
   }
 
-  .footer__container-right input {
-    margin-left: 1.5rem;
-  }
 
-  .footer__container-right button {
-    margin-left: 2.5rem;
-  }
 }
