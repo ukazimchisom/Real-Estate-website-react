@@ -163,9 +163,9 @@
     height: 100%;
   }
   .aboutUs__container-groupB {
-    margin: 0 auto;
+    margin: 0 1rem;
     margin-top: 3rem;
-    width: 200px;
+    
   }
 
   .aboutUs__container-groupB h5{

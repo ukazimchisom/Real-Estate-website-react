@@ -61,7 +61,7 @@
   .services__container-service1_cards-containers {
     display: block;
     column-count: 2;
-    width: 50%;
+    width: 100%;
     padding: 5rem 3rem;
   }
 
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 700px) {
   .services__container-service1_cards-containers {
-    display: flex;
+    display: block;
     flex-direction: column;
     width: 100%;
   }

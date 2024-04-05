@@ -5,6 +5,7 @@ import './cards.css'
 const Cards = ({imgUrl, title, text}) => {
   return (
     <div className='cards__service-container_cards'>
+      
       <div className='cards__service-container_cards-image'>
         <img src={imgUrl} alt="" />
       </div>
@@ -13,10 +14,6 @@ const Cards = ({imgUrl, title, text}) => {
         <p>{text}</p>
       </div>
       
-        
-      
-
-
 
     </div>
   )

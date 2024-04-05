@@ -45,7 +45,7 @@ function Navbar() {
           : <RiMenu3Line color='#ffff' size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className='navbar__navbar-menu_container '>
+          <div className='navbar__navbar-menu_container scale-up-center'>
             <div className='navbar__navbar-menu_container-links'>
               <Menu />
             </div>

@@ -8,9 +8,9 @@ function Team() {
     <div className='teams__container' id='team'>
       <h3>Our Team</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum, ex ac feugiat dictum, dui tortor consectetur enim,</p>
-      <div className='teams__container_image'>
+      <div className='teams__container_teamFeatures-container'>
         <TeamFeatures imgUrl={team1} name='Ralph Edwards' position='sr. Backend Developer' />
-
+        
         <TeamFeatures imgUrl={team2} name='Ralph Edwards' position='sr. Backend Developer' />
 
         <TeamFeatures imgUrl={team3} name='Ralph Edwards' position='sr. Backend Developer' />

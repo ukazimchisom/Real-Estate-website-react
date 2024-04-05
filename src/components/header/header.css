@@ -206,7 +206,7 @@
 
 @media screen and (max-width: 500px) {
   .header {
-    margin-left: 4rem;
+    margin-left: 3.5rem;
   }
 
   .header__contents-left {
@@ -235,8 +235,5 @@
     height: 100%;
   }
 }
-/* 
-@media screen and (max-width: 390px){
-  
-} */
+
 
