@@ -149,7 +149,7 @@
 
   .footer__container-left {
     margin-bottom: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
 
   .footer__container-left-logo {
@@ -170,7 +170,7 @@
 
   .footer__container-middle {
     margin-bottom: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
 
   .footer__container-middle1 h6,
@@ -184,11 +184,12 @@
   }
 
   .footer__container-right {
-    margin-left: 5rem;
+    margin-left: 1rem;
   }
 
   .footer__container-right h6 {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
+    width: 100%;
   }
 
 
